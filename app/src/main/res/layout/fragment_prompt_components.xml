@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/promptConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:id="@+id/dialogHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/dialog_header"
+        android:textAppearance="?attr/textAppearanceOverline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dialogAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/dialog_alert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogHeader" />
+
+    <Button
+        android:id="@+id/dialogSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/dialog_simple"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogAlert"
+        app:layout_constraintStart_toEndOf="@+id/dialogAlert"
+        app:layout_constraintTop_toTopOf="@+id/dialogAlert" />
+
+    <Button
+        android:id="@+id/dialogConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/dialog_confirmation"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogSimple"
+        app:layout_constraintStart_toEndOf="@+id/dialogSimple"
+        app:layout_constraintTop_toTopOf="@+id/dialogSimple" />
+
+    <TextView
+        android:id="@+id/snackbarHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/snackbard_header"
+        android:textAppearance="?attr/textAppearanceOverline"
+        app:layout_constraintBottom_toTopOf="@+id/snackbarShow"
+        app:layout_constraintStart_toStartOf="@+id/dialogHeader"
+        app:layout_constraintTop_toBottomOf="@+id/dialogAlert" />
+
+    <Button
+        android:id="@+id/snackbarShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/snackbard_show"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snackbarHeader" />
+
+    <TextView
+        android:id="@+id/bottomSheetHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/bottom_sheet_header"
+        android:textAppearance="?attr/textAppearanceOverline"
+        app:layout_constraintBottom_toTopOf="@+id/bottomSheetShow"
+        app:layout_constraintStart_toStartOf="@+id/snackbarHeader"
+        app:layout_constraintTop_toBottomOf="@+id/snackbarShow"/>
+
+    <Button
+        android:id="@+id/bottomSheetShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/bottom_sheet_show"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomSheetHeader" />
+</androidx.constraintlayout.widget.ConstraintLayout>

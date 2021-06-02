@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Material Design Playground</string>
+    <string name="nav_header">Headline 6</string>
+    <string name="nav_sub_header">Body 2</string>
+
+    <!--Menu-->
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="home">Home</string>
+    <string name="basic_components">Basic Components</string>
+    <string name="prompts">Prompts</string>
+    <string name="navigation">Navigation</string>
+    <string name="list">List</string>
+
+    <!--Button-->
+    <string name="button_header">Button</string>
+    <string name="button_contained">Contained Button</string>
+    <string name="button_text">Text Button</string>
+    <string name="button_outlined">Outlined Button</string>
+
+    <!--FAB-->
+    <string name="fab_header">FAB</string>
+    <string name="fab_extended">Extended Fab</string>
+
+    <!--Chip-->
+    <string name="chip_header">Chip</string>
+    <string name="chip_action">Action</string>
+    <string name="chip_filter">Filter</string>
+    <string name="chip_choice">Choice</string>
+    <string name="chip_entry">Entry</string>
+
+    <!--Switch-->
+    <string name="switch_header">Switch</string>
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+    <string name="switch_disabled">Disabled</string>
+
+    <!--Checkbox-->
+    <string name="checkbox_header">Checkbox</string>
+    <string name="checkbox_checked">Checked</string>
+    <string name="checkbox_unchecked">Unchecked</string>
+    <string name="checkbox_disabled">Disabled</string>
+
+    <!--RadioButton-->
+    <string name="radio_button_header">Radio Button</string>
+    <string name="radio_button_selected">Selected</string>
+    <string name="radio_button_unselected">Unselected</string>
+    <string name="radio_button_disabled">Disabled</string>
+
+    <!--Card-->
+    <string name="card_header">Card</string>
+    <string name="card_title">Headline 6</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <!--Dialog-->
+    <string name="dialog_header">Dialog</string>
+    <string name="dialog_alert">Alert</string>
+    <string name="dialog_simple">Simple</string>
+    <string name="dialog_confirmation">Confirmation</string>
+    <string name="dialog_title">Title</string>
+    <string name="dialog_supporting_text">Supporting text</string>
+    <string name="dialog_accept">Accept</string>
+    <string name="dialog_decline">Decline</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+
+    <string-array name="items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+
+    <!--Snackbar-->
+    <string name="snackbard_header">Snackbar</string>
+    <string name="snackbard_show">Show Snackbar</string>
+    <string name="snackbard_message">Message will be displayed here</string>
+    <string name="snackbard_action">Dismiss</string>
+
+    <!--Bottom Sheet-->
+    <string name="bottom_sheet_header">Bottom Sheet</string>
+    <string name="bottom_sheet_show">Show Bottom Sheet</string>
+
+    <!--Bottom Navigation-->
+    <string name="bottom_navigation_header">Bottom Navigation</string>
+    <string name="bottom_navigation_page1">Page 1</string>
+    <string name="bottom_navigation_page2">Page 2</string>
+    <string name="bottom_navigation_page3">Page 3</string>
+    <string name="bottom_navigation_page4">Page 4</string>
+
+    <!--Tabs-->
+    <string name="tabs_header">Tabs</string>
+    <string name="tabs_label_1">Tab 1</string>
+    <string name="tabs_label_2">Tab 2</string>
+    <string name="tabs_label_3">Tab 3</string>
+
+    <!--Text Field-->
+    <string name="text_field_header">Text Field</string>
+    <string name="text_field_helper_text">Input 4 characters to see error behavior</string>
+    <string name="text_field_filled">Filled</string>
+    <string name="text_field_outline">Outline</string>
+    <string name="text_field_error">Max character exceeded!</string>
+</resources>

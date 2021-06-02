@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page1"
+        android:enabled="true"
+        android:icon="@drawable/outline_star_24"
+        android:title="@string/bottom_navigation_page1"/>
+    <item
+        android:id="@+id/page2"
+        android:enabled="true"
+        android:icon="@drawable/outline_star_24"
+        android:title="@string/bottom_navigation_page2"/>
+    <item
+        android:id="@+id/page3"
+        android:enabled="true"
+        android:icon="@drawable/outline_star_24"
+        android:title="@string/bottom_navigation_page3"/>
+    <item
+        android:id="@+id/page4"
+        android:enabled="true"
+        android:icon="@drawable/outline_star_24"
+        android:title="@string/bottom_navigation_page4"/>
+</menu>

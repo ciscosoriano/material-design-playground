@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.qc.ux.materialdesignplayground.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_componentFragment"
+            app:destination="@id/basicComponentsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_promptsFragment"
+            app:destination="@id/promptComponentsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_navigationComponentsFragment"
+            app:destination="@id/navigationComponentsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_listComponentFragment"
+            app:destination="@id/listComponentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/basicComponentsFragment"
+        android:name="com.qc.ux.materialdesignplayground.BasicComponentsFragment"
+        android:label="fragment_component"
+        tools:layout="@layout/fragment_basic_components" >
+        <action
+            android:id="@+id/action_componentFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/promptComponentsFragment"
+        android:name="com.qc.ux.materialdesignplayground.PromptComponentsFragment"
+        android:label="fragment_prompts"
+        tools:layout="@layout/fragment_prompt_components" >
+        <action
+            android:id="@+id/action_promptsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigationComponentsFragment"
+        android:name="com.qc.ux.materialdesignplayground.NavigationComponentsFragment"
+        android:label="fragment_navigation_components"
+        tools:layout="@layout/fragment_navigation_components" >
+
+        <action
+            android:id="@+id/action_navigationComponentsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listComponentFragment"
+        android:name="com.qc.ux.materialdesignplayground.ListComponentFragment"
+        android:label="fragment_list_component"
+        tools:layout="@layout/fragment_list_component" >
+
+        <action
+            android:id="@+id/action_listComponentFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
